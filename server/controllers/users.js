@@ -1,5 +1,6 @@
-import { Promise } from "mongoose";
-import User from "../models/User";
+import pkg from 'mongoose';
+const { Promise } = pkg;
+import User from "../models/User.js";
 
 // READ
 
